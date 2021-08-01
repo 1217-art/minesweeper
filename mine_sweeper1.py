@@ -8,14 +8,14 @@ cells = []
 open_cells = []
 Flag = "★"
 BOM = -1
-bom = 2
+bom = 30
 
 
 SQUARE_LENGTH = 30
 RADIUS = SQUARE_LENGTH / 2 - 5
 POSITION = {"x": 8, "y": 8}
 BORDER_WIDTH = 2
-NUMBER = 5
+NUMBER = 20
 LENGTH = SQUARE_LENGTH * NUMBER + BORDER_WIDTH * NUMBER
 #四角の盤
 def set_field():
